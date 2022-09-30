@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+header{
+    background: linear-gradient(to right, #465CA7, #465CA7, rgb(172, 47, 143), rgb(172, 47, 143) , #F6C870);
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+header h1{
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
+    padding: 0 15px;
+
+}
+nav{
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0px;    
+}
+nav ul li{
+    display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    margin: 10px 20px ;
+}
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+nav ul li a.active{
+    background-color: rgba(0,0,0,0.3);
+}
+main{
+    background-image: url(../img/9e167fa6-f446-483b-8f9c-140376608ad4.jpg);
+    width: 100%;
+    height: 600px;
+    padding-top: 30px;
+    
+}
+main h2{
+    font-size: 30px;
+}
+main h2,
+.comunicacion h5,
+.comunicacion .comunica h6,
+.comunica p,
+.comunica a{
+    text-align: center;
+    text-shadow: 0 0 2px #0006;
+    font-family: 'Open Sans', sans-serif;
+    color: #465CA7;   
+}
+main h2,
+.comunicacion h5{
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 3px solid #465CA7;
+    padding-bottom: 15px;
+}
+.comunica h6,
+.comunica p,
+.comunica a{
+    font-size: 12px;
+    font-weight: 400;
+    padding: 15px;
+    font-family: 'Roboto Mono', monospace; ;
+}
+.container{
+    display: flex;
+}
+.bienvenida{
+    width: 75%;
+}
+.bienvenida .bienv{
+    padding: 20px 0px;
+    
+}
+.comunicacion{
+    width: 25%;
+}
+.comunicacion .comunica{
+    padding:  0 10px;
+}
+
+
+.bienvenida,
+.comunicacion{
+    border: 3px solid gray;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 30px 10px 30px;
+    margin: 0 50px;
+}
+.bienvenida img{
+    max-width: 300px;
+    box-shadow: 0 0 10px black;
+    border-radius: 18px;
+    margin: 10px 200px;
+}
+.bienv p{
+    padding-top: 10px;
+}
+.comunicacion img{
+    box-shadow: 0 0 7px;
+    width: 200px;
+}
+.comunicacion .comunica .fotoComunica{
+    width: 100px;
+    margin: 0 50px;
+    border-radius: 800px;
+}
+footer{
+    background: linear-gradient(to right, #465CA7, #465CA7, rgb(172, 47, 143), rgb(172, 47, 143) , #F6C870);
+    max-width: 100%;
+    height: 80px;
+}
+.historia img{
+    width: 35%;
+    height: 250px;
+    margin: 0 50px;
+}
+.servicios ul{
+    
+    max-width: 100%;
+
+}
+.servicios ul li{
+    width: 30%;
+    display: inline-block;
+}
+.servicios img{
+    filter: drop-shadow(2px 4px 6px black);
+    max-width: 100%;
+    margin: 0px 60px;
+    padding: 20px 20px;
+}
+.serviciosback{
+    background-image: url(../img/9e167fa6-f446-483b-8f9c-140376608ad4.jpg);
+    height: 2000px;
+}
+.servicioDetalles div{
+    border: 3px solid #465CA7;
+    background-color: white;
+    border-radius: 10px;
+    margin: 16px 40px;
+    padding: 30px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.servicioDetalles h3{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 15px;
+    font-family: 'Roboto Mono', monospace;
+    color: #465CA7; 
+    border-bottom: 3px solid #465CA7;
+}
+.servicioDetalles p,
+.container .bienvenida p{
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+}
+.contactos,
+.direccion{
+    border: 3px solid #465CA7;
+    border-radius: 10px;
+    background-color: white;
+    margin: 16px 40px;
+    padding: 15px;
+    
+}
+.contactos ul{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 50px;
+}
+.direccion .mapa{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.botonvolver{
+    background-color: #465CA7;
+    font: 40px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    text-align: center;
+}
